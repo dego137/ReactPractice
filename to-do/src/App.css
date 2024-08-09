@@ -1,0 +1,89 @@
+.Formulario-Todo {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.Formulario-Todo input.text, .Formulario-Todo button.button {
+  display: inline-block;
+  vertical-align: middle;
+}
+h2{
+  color: #0056b3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Formulario-Todo input.text {
+  width: calc(100% - 90px);
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.Formulario-Todo button.button {
+  width: 80px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.Formulario-Todo button.button:hover {
+  background-color: #0056b3;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #fff;
+  color: #0056b3;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.button-task {
+  display: flex;
+}
+
+.button-task button {
+  padding: 5px 10px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete:hover {
+  background-color: #c82333;
+}
+
+.edit {
+  background-color: #ffc107;
+  color: white;
+}
+
+.edit:hover {
+  background-color: #e0a800;
+}
